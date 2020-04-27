@@ -1,0 +1,7 @@
+language: cpp
+services:
+  - docker
+script:
+  - docker build -t practice .
+  - docker run --rm -it practice
+   
